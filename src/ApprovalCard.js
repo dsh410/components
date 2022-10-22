@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function ApprovalCard (){
+export default function ApprovalCard (props){
 return (<>
 <div className="ui cards">
   <div className="card">
     <div className="content">
       {/* <img alt="description" className="right floated mini ui image" src="/images/avatar/large/elliot.jpg"/> */}
       <div className="header">
-       Are you sure?
+     {!props.children ? "Are you sure?": props.children}
       </div>
       <div className="meta">
       

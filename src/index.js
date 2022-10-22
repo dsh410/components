@@ -8,21 +8,26 @@ import './App.css'
 function App(){
  return ( 
   <>
-   <ApprovalCard/>
+   <ApprovalCard>
       <CommentDetail 
       time ={'today at 5:00pm'} 
      img={faker.image.image()}
       />
+      </ApprovalCard>
+      <ApprovalCard>
       <CommentDetail 
       time ={'today at 6:00pm'}
        img={faker.image.image()}
 
       />
+      </ApprovalCard>
+      <ApprovalCard>
       <CommentDetail 
       time ={'today at 7:00pm'}
        img={faker.image.image()}
 
        />
+  </ApprovalCard>
   </>
   )
 };
