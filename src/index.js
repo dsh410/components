@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
 import faker from 'faker';
-import './App.css'
+import './style/App.css'
 
 function App(){
  return ( 
   <>
+ 
    <ApprovalCard>
       <CommentDetail 
       time ={'today at 5:00pm'} 
@@ -28,6 +29,7 @@ function App(){
 
        />
   </ApprovalCard>
+ 
   </>
   )
 };
